@@ -1,0 +1,28 @@
+.align{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.dolist{
+    border-bottom: 1px solid rgb(231, 35, 35);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.strike{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    text-decoration: line-through;
+    font-family: 'Courier New', Courier, monospace;
+}
+#list{
+    list-style:none;
+}
+input{
+    border-radius: 20px;
+}
+.newlist{
+    border: 2px solid rgb(250, 247, 247);
+    color: aliceblue;
+}
+.styledate{
+    font-size:xx-small;
+
+}
