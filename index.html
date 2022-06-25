@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do</title>
     <link rel="stylesheet" href="style.css">
+    <title>To-Do</title>
 </head>
 <body>
-    <div class="container">
-        <div class=" align heading">
-            <div><h1>To-do List</h1></div>
+    <header>
+        <h1>To-do-List</h1>
+    </header>
+<div class="container">
+        <input type="text" class="inputtext">
+        
+        <button class="add">Add</button>
+        <div class="body content">
+            <h3 class="">Not-Completed task</h3>
+            <ol class="notcompletedtask">
+            
+            </ol>
         </div>
-        <div class=" align input">
-            <input type="text" id="input" placeholder="Enter your Task" style=" width: 400px; height: 20px;" >
-            <input type="datetime-local" id="inputdate" style=" width: 100px; height: 23px;" >
-            <button class="btn"  style="margin-left: 10px; width: 80px;">ADD</button>
-        </div>
-        <div class="align">
-            <ul id="list">
+    <div class="body">
+        <h3>Completed task</h3>
+        <ol class="completedtask">
+            <!-- <li>eat
+                <button>completed</button>
+                <button>Delete</button>
+              </li> -->
 
-            </ul>
-        </div>
+        </ol>
     </div>
-    
-    <script src="main.js"></script>
+</div>
+
+    <script src="app.js"></script>
 </body>
 </html>
